@@ -1,0 +1,16 @@
+{
+  "name": "taskify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install --prefix frontend && npm install --prefix server",
+    "start-all": "concurrently \"npm start --prefix frontend\" \"npm run dev --prefix server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
