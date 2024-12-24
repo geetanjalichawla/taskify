@@ -87,6 +87,12 @@ The API follows RESTful principles. Use tools like **Postman** or **Thunder Clie
 ```
 GET /tasks
 ```
+![image](https://github.com/user-attachments/assets/52a490df-677b-45a9-9c40-e22241774f74)
+![image](https://github.com/user-attachments/assets/66864090-0f8d-4ca5-9580-cf34fe603f22)
+![image](https://github.com/user-attachments/assets/d9b0cf69-20d2-40ff-bde7-6ce8b81db275)
+
+
+
 Fetches the list of all tasks.
 
 #### Create a Task
@@ -99,6 +105,8 @@ Creates a new task.
 ```
 PUT /tasks/:id
 ```
+![image](https://github.com/user-attachments/assets/b2b2d422-06ff-40ce-b7de-136b01fffe53)
+
 Updates an existing task by ID.
 
 #### Delete a Task
